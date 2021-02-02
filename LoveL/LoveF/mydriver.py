@@ -105,3 +105,5 @@ class Mydriver:
 
     def go_js(self, js):
         self.driver.execute_script(js)
+    def quit(self):
+        self.driver.quit()
